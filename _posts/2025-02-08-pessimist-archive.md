@@ -6,6 +6,67 @@ categories: [ Jekyll, tutorial ]
 image: assets/images/coffee.jpg
 ---
 
+<!-- Image Slider Code -->
+<div class="image-slider">
+  <img src="{{ site.baseurl }}/assets/images/image1.jpg" class="slider-img" id="slider">
+  <button class="prev" onclick="prevImage()">&#10094;</button>
+  <button class="next" onclick="nextImage()">&#10095;</button>
+</div>
+
+<script>
+  var images = [
+    "{{ site.baseurl }}/assets/images/devil.jpg",
+    "{{ site.baseurl }}/assets/images/womenpetition.jpg",
+    "{{ site.baseurl }}/assets/images/coffeehouses.jpg",
+    " {{ site.baseurl }}/assets/images/Mecca.jpg"
+    " {{ site.baseurl }}/assets/images/Postum.jpg"
+    " {{ site.baseurl }}/assets/images/PopeClement.jpg"
+  ];
+  var currentIndex = 0;
+  function showImage(index) {
+    document.getElementById("slider").src = images[index];
+  }
+  function prevImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    showImage(currentIndex);
+  }
+  function nextImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    showImage(currentIndex);
+  }
+</script>
+
+<style>
+  .image-slider {
+    position: relative;
+    max-width: 500px;
+    margin: auto;
+  }
+  .slider-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+  }
+  .prev { left: 0; }
+  .next { right: 0; }
+  .prev:hover, .next:hover {
+    background-color: black;
+  }
+</style>
+
+
 
 
 ## Key events
@@ -62,60 +123,5 @@ Peter: coffee is nothing to fear. It's nutritious. It seems to even help the bod
 
 
 
-<!-- Image Slider Code -->
-<div class="image-slider">
-  <img src="{{ site.baseurl }}/assets/images/image1.jpg" class="slider-img" id="slider">
-  <button class="prev" onclick="prevImage()">&#10094;</button>
-  <button class="next" onclick="nextImage()">&#10095;</button>
-</div>
 
-<script>
-  var images = [
-    "{{ site.baseurl }}/assets/images/devil.jpg",
-    "{{ site.baseurl }}/assets/images/caffeine-detox.jpg",
-    "{{ site.baseurl }}/assets/images/Mecca.jpg"
-  ];
-  var currentIndex = 0;
-  function showImage(index) {
-    document.getElementById("slider").src = images[index];
-  }
-  function prevImage() {
-    currentIndex = (currentIndex - 1 + images.length) % images.length;
-    showImage(currentIndex);
-  }
-  function nextImage() {
-    currentIndex = (currentIndex + 1) % images.length;
-    showImage(currentIndex);
-  }
-</script>
-
-<style>
-  .image-slider {
-    position: relative;
-    max-width: 500px;
-    margin: auto;
-  }
-  .slider-img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
-  .prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    font-size: 18px;
-    border-radius: 50%;
-  }
-  .prev { left: 0; }
-  .next { right: 0; }
-  .prev:hover, .next:hover {
-    background-color: black;
-  }
-</style>
 
