@@ -20,10 +20,12 @@ image: assets/images/coffee.jpg
     "{{ site.baseurl }}/assets/images/devil.jpg",
     "{{ site.baseurl }}/assets/images/womenpetition.jpg",
     "{{ site.baseurl }}/assets/images/coffeehouses.jpg",
-    " {{ site.baseurl }}/assets/images/Mecca.jpg"
-    " {{ site.baseurl }}/assets/images/Postum.jpg"
-    " {{ site.baseurl }}/assets/images/PopeClement.jpg"
+    "{{ site.baseurl }}/assets/images/Mecca.jpg",
+    "{{ site.baseurl }}/assets/images/Postum.jpg",
+    "{{ site.baseurl }}/assets/images/PopeClement.jpg"
   ];
+</script>
+
   var currentIndex = 0;
   function showImage(index) {
     document.getElementById("slider").src = images[index];
