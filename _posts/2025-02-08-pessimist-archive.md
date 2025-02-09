@@ -19,7 +19,10 @@ image: assets/images/coffee.jpg
 
 Health concerns surrounding coffee began to spread. Physicians claimed it led to impotence, paralysis, heart disease, eyesight problems, etc. 
 
-# John Harvey Kellogg:
+
+ John Harvey Kellogg:
+ ![Podcast Image](assets/images/Kellog.jpg)
+
 Called coffee a grave health menace.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
