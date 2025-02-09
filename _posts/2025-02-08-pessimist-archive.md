@@ -6,6 +6,8 @@ categories: [ Jekyll, tutorial ]
 image: assets/images/coffee.jpg
 ---
 
+
+
 <!-- Image Slider Code -->
 <div class="image-slider">
   <img src="{{ site.baseurl }}/assets/images/image1.jpg" class="slider-img" id="slider">
@@ -69,6 +71,9 @@ image: assets/images/coffee.jpg
 
 
 
+
+
+
 ## Key events
 
 1- 1674: The Women's petition against coffee: Women claimed that coffee was ruining their relationships with their husbands. 
@@ -82,7 +87,7 @@ Health concerns surrounding coffee began to spread. Physicians claimed it led to
 
 
  John Harvey Kellogg:
- ![Podcast Image](assets/images/Kellog.jpg)
+ ![Kellog](assets/images/Kellog.jpg)
 
 Called coffee a grave health menace.
 
