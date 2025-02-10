@@ -97,7 +97,7 @@ Health concerns surrounding coffee began to spread. Physicians claimed it led to
 
 
  John Harvey Kellogg:
- ![Kellog](assets/images/Kellog.jpg)
+![Kellog]({{ site.baseurl }}/assets/images/Kellog.jpg)
 
 Called coffee a grave health menace.
 
