@@ -80,7 +80,7 @@ image: assets/images/coffee.jpg
 
 
 
-*Define a piccolo, macchiato, latte, flat white and cuppuccino???*
+**Define a piccolo, macchiato, latte, flat white and cuppuccino???**
 
 
 
