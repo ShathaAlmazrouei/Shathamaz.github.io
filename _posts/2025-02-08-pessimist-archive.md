@@ -10,35 +10,10 @@ image: assets/images/coffee.jpg
 
 <!-- Image Slider Code -->
 <div class="image-slider">
-  <img src="{{ site.baseurl }}/assets/images/image1.jpg" class="slider-img" id="slider">
+  <img src="{{ site.baseurl }}/assets/images/devil.jpg" class="slider-img" id="slider">
   <button class="prev" onclick="prevImage()">&#10094;</button>
   <button class="next" onclick="nextImage()">&#10095;</button>
 </div>
-
-<script>
-  var images = [
-    "{{ site.baseurl }}/assets/images/devil.jpg",
-    "{{ site.baseurl }}/assets/images/womenpetition.jpg",
-    "{{ site.baseurl }}/assets/images/coffeehouses.jpg",
-    "{{ site.baseurl }}/assets/images/Mecca.jpg",
-    "{{ site.baseurl }}/assets/images/Postum.jpg",
-    "{{ site.baseurl }}/assets/images/PopeClement.jpg"
-  ];
-</script>
-
-  var currentIndex = 0;
-  function showImage(index) {
-    document.getElementById("slider").src = images[index];
-  }
-  function prevImage() {
-    currentIndex = (currentIndex - 1 + images.length) % images.length;
-    showImage(currentIndex);
-  }
-  function nextImage() {
-    currentIndex = (currentIndex + 1) % images.length;
-    showImage(currentIndex);
-  }
-</script>
 
 <style>
   .image-slider {
@@ -50,6 +25,7 @@ image: assets/images/coffee.jpg
     width: 100%;
     height: auto;
     border-radius: 5px;
+    display: block;
   }
   .prev, .next {
     position: absolute;
@@ -63,12 +39,44 @@ image: assets/images/coffee.jpg
     font-size: 18px;
     border-radius: 50%;
   }
-  .prev { left: 0; }
-  .next { right: 0; }
+  .prev { left: 10px; }
+  .next { right: 10px; }
   .prev:hover, .next:hover {
     background-color: black;
   }
 </style>
+
+<script>
+  var images = [
+    "{{ site.baseurl }}/assets/images/devil.jpg",
+    "{{ site.baseurl }}/assets/images/womenpetition.jpg",
+    "{{ site.baseurl }}/assets/images/coffeehouses.jpg",
+    "{{ site.baseurl }}/assets/images/Mecca.jpg",
+    "{{ site.baseurl }}/assets/images/Postum.jpg",
+    "{{ site.baseurl }}/assets/images/PopeClement.jpg"
+  ];
+
+  var currentIndex = 0;
+
+  function showImage(index) {
+    document.getElementById("slider").src = images[index];
+  }
+
+  function prevImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    showImage(currentIndex);
+  }
+
+  function nextImage() {
+    currentIndex = (currentIndex + 1) % images.length;
+    showImage(currentIndex);
+  }
+
+  // Initialize slider on page load
+  window.onload = function() {
+    showImage(currentIndex);
+  };
+</script>
 
 
 
