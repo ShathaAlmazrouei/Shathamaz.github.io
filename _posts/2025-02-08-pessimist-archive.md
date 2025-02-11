@@ -108,14 +108,13 @@ Called coffee a grave health menace.
 - Coffee began as a religious tool for Sufi monks in Ethiopia, later spreading to the Arab world where coffee houses emerged as centers of discussion and interaction.
 -  Yemeni mocha:  Yemeni port of Mocha became a place where coffee beans were exported, and so coffee from that region became known as Mocha.
 
-  
--  ## coffee in the Arab world:
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## coffee in the Arab world:
 - Coffee became a ritual in the Arab life. It became a necessity in gatherings where men would gather and the coffee was made by infusing the beans with boiling water.
 
-## 1511:
-
-The ban of coffee houses in Mecca. The governor of Mecca, whose name was Khair Begg, in 1511 got very upset because people were apparently being affected by coffee to write satirical verses about him, and he didn't appreciate that. So Khair Begg rounded up some religious scholars and got them to agree that coffee was like alcohol, which is to say a drug that should be banned by the Quran. But his boss, the Sultan of Cairo liked coffee, so the ban was removed.
-
+  ## 1511:
+  The ban of coffee houses in Mecca. The governor of Mecca, whose name was Khair Begg, in 1511 got very upset because people were apparently being affected by coffee to write satirical verses about him, and he didn't   appreciate that. So Khair Begg rounded up some religious scholars and got them to agree that coffee was like alcohol, which is to say a drug that should be banned by the Quran. But his boss, the Sultan of Cairo liked coffee, so the ban was removed.
 
 -Coffee later spread to Europe, invading Christian Europe. It was seen as a muslim drink, and many resisted it.
 
