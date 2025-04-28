@@ -5,6 +5,7 @@ permalink: "/:slug/"
 favicon: "assets/images/favicon.ico"
 author: Shatha
 paginate: 30
+future: true  # Allow posts dated in the future to appear
 disqus: "demowebsite"
 locale: "en_us"
 lang: "en_us"
@@ -25,7 +26,7 @@ ganalytics: "UA-113961478-1"
 
 # Authors
 authors:
-  sal:
+ Shatha:
     name: "Shatha"
     display_name: "Shatha"
     avatar: "assets/images/sal.png"
@@ -47,4 +48,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+
+# Force rebuild trick (small change)
+force_rebuild: true  # <<<<< ADD THIS
 
