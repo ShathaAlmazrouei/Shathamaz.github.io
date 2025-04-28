@@ -1,10 +1,11 @@
 title: "Manus et Machina"
 timezone: UTC
-baseurl: ""  # Change to "/your-repo-name" if necessary
+baseurl: "The useless multitool"  # e.g., /multitool-project
 permalink: "/:slug/"
 favicon: "assets/images/favicon.ico"
 author: Shatha
 paginate: 30
+future: true
 disqus: "demowebsite"
 locale: "en_us"
 lang: "en_us"
@@ -47,4 +48,5 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+
 
